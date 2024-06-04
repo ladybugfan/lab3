@@ -1,0 +1,36 @@
+w=(4-1)*2;
+print w;
+
+
+foo(x, y): ((x*y+2)*(25-x/y))/(3-(x+2*y));
+myfoo2(z): z*z+4;
+myvar(i)=15;
+bg(f)=25;
+ccc=myfoo2(bg+myvar)*15+foo(bg*25+(6*myfoo2(myvar-10)),1);
+print ccc;
+bg=ccc*myvar;
+print;
+
+
+u = myfoo2(myfoo2(3));
+b = myfoo2(myfoo2(3))+myfoo2(3)*3;
+print;
+
+
+myfoo3(z){
+    myvar(f)=555;
+    return myvar;
+}
+
+rrr = myfoo3(2);
+rrr= rrr+1.7;
+
+{
+    var2(i)=45;
+    var1(f)=14;
+    rrr=4;
+    print;
+}
+
+print;
+print var2;
